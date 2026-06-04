@@ -8,6 +8,6 @@ app.http('getItems', {
 
         const name = request.query.get('name') || await request.text() || 'world';
 
-        return { body: `Hello, ${name}!` };
+        return { body: `Hallo, ${name}!` };
     }
 });
